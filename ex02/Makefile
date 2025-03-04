@@ -1,7 +1,7 @@
 C++ = c++
 C++_FLAGS = -Wall -Wextra -Werror -std=c++98
 
-INFILES = main.cpp ClapTrap.cpp ScavTrap.cpp
+INFILES = main.cpp ClapTrap.cpp ScavTrap.cpp FragTrap.cpp
 OBJFILES = $(INFILES:.cpp=.o)
 
 NAME = test
