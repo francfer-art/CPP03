@@ -27,6 +27,10 @@ int main() {
     claptrap2.attack("target2");
     claptrap2.attack("target2"); 
 
+    claptrap2.takeDamage(10);
+    claptrap2.takeDamage(10);
+    claptrap2.beRepaired(10);
+
     ClapTrap claptrap3 = claptrap2;
     claptrap3.attack("target3");
 

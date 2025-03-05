@@ -29,8 +29,8 @@ int main()
 		std::cout << "\033[34mTesting\033[0m" << std::endl;
 		e.highFivesGuys();
 		e.attack("some random dude");
-		// e.takeDamage(99);
-		// e.takeDamage(1);
+		e.takeDamage(99);
+		e.takeDamage(1);
 		e.attack("some random dude");
 		g.highFivesGuys();
 		std::cout << "\033[34mDeconstructing\033[0m" << std::endl;
